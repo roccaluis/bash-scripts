@@ -76,4 +76,4 @@ aws ec2 delete-vpc \
   --region "$REGION" \
   --profile "$PROFILE"
 
-echo "Default VPC cleanup complete."
+echo "Default VPC cleanup complete.1"

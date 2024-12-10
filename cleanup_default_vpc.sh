@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Set these variables as needed
-REGION="ap-south-1"
+REGION="eu-west-1"
 PROFILE="iamadmin-general"
 
 # Step 1: Identify the default VPC
@@ -76,4 +76,4 @@ aws ec2 delete-vpc \
   --region "$REGION" \
   --profile "$PROFILE"
 
-echo "Default VPC cleanup complete.1"
+echo "Default VPC cleanup complete"
